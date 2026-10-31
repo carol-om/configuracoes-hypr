@@ -1,0 +1,59 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+}
+
+/* Janela */
+window {
+    background-color: rgba(50, 48, 47, 0.75);
+    border-radius: 14px;
+}
+
+/* Container */
+#outer-box {
+    margin: 10px;
+}
+
+/* Input */
+#input {
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(140, 125, 112, 0.75);
+    color: rgba(50, 48, 47, 1);
+}
+
+/* Foco sutil */
+#input:focus {
+    background-color: rgba(235, 219, 178, 0.75);
+}
+
+/* Lista */
+#scroll {
+    margin: 5px;
+}
+
+/* Itens */
+#entry {
+    padding: 10px;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+/* Seleção */
+#entry:selected {
+    background-color: rgba(140, 125, 112, 0.75);
+    color: rgba(235, 219, 178, 1);
+}
+
+/* Ícones */
+#img {
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+/* Texto */
+#text {
+    color: rgba(235, 219, 178, 1);
+}

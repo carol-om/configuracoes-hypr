@@ -1,0 +1,14 @@
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# Arquivos temporários
+*.bak
+*.tmp
+*~
+.DS_Store
